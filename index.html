@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="trillo logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="search hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">8</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/user-7.jpeg"
+              alt="user photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">William</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car rental</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2023 by trillo. All rights reserved</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Photo of hotel 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Photo of hotel 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Photo of hotel 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Hotel Las Palmas</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Albufeira, Portugal</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">333 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Suspendisse accumsan dictum vestibulum. Duis nec orci ac est
+                hendrerit rhoncus ut id dolor. Curabitur porta leo ac urna
+                suscipit pharetra. Curabitur luctus et eros eu condimentum.
+                Aliquam non ante eget purus efficitur cursus eu sed purus. Sed
+                et nibh velit. Fusce lacus dui, suscipit eget mollis quis,
+                ultrices vel arcu. Maecenas aliquet erat ut mi rutrum mollis.
+                Curabitur non faucibus quam, in ultricies elit.
+              </p>
+              <p class="paragraph">
+                Pellentesque imperdiet non est non euismod. Ut venenatis iaculis
+                ex, eleifend auctor lacus gravida eget. Etiam rhoncus posuere
+                leo, et hendrerit ipsum posuere eu. Morbi in eros nec justo
+                accumsan commodo. Etiam hendrerit dapibus elementum. Suspendisse
+                ultricies lectus ut euismod mollis.
+              </p>
+              <ul class="list">
+                <li class="list__item">close to the beach</li>
+                <li class="list__item">Breakfast included</li>
+                <li class="list__item">free airport shuttle</li>
+                <li class="list__item">free wifi in all rooms</li>
+                <li class="list__item">air conditioning and heating</li>
+                <li class="list__item">pets allowed</li>
+                <li class="list__item">we speak all languages</li>
+                <li class="list__item">perfect for families</li>
+              </ul>
+
+              <div class="recommend">
+                <p class="recommend__count">
+                  Tinubu and 3 other friends recommended this hotel.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-8.jpeg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Pellentesque imperdiet non est non euismod. Ut venenatis
+                  iaculis ex, eleifend auctor lacus gravida eget
+                </blockquote>
+                <figurecaption class="review__user">
+                  <img src="img/Me.JPG" alt="" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">William Bosworth</p>
+                    <p class="review__user-date">Oct 9th, 2024</p>
+                  </div>
+                  <div class="review__rating">8.0</div>
+                </figurecaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Suspendisse accumsan dictum vestibulum. Duis nec orci ac est
+                  hendrerit rhoncus ut id dolor. Curabitur porta leo ac urna
+                  suscipit pharetra.
+                </blockquote>
+                <figurecaption class="review__user">
+                  <img src="img/her.jpeg" alt="Esther" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Esther Isaiah</p>
+                    <p class="review__user-date">Oct 11th, 2024</p>
+                  </div>
+                  <div class="review__rating">8.1</div>
+                </figurecaption>
+              </figure>
+
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+          </div>
+
+          <div class="cta">
+            <h2 class="cta__book-now">Book this hotel now</h2>
+            <button class="btn">
+              <span class="btn__visible">Book Now</span>
+              <span class="btn__invisible">Only 4 rooms left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
